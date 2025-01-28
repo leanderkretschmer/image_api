@@ -1,4 +1,4 @@
-# Image API with LocalAI Integration
+# Image API with LocalAI Integration #
 
 [![License](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Oracle_Corporation_logo.svg/2560px-Oracle_Corporation_logo.svg.png)](https://www.oracle.com/legal/)
 
