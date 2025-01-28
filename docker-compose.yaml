@@ -3,7 +3,7 @@ version: '3.8'
 services:
   image-api:
     build:
-      context: https://github.com/dein-username/dein-repository.git # Dieses repo
+      context: https://github.com/leanderkretschmer/image_api
       dockerfile: Dockerfile # Dockerfile im Repo
     container_name: image-api
     restart: always
