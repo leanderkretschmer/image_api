@@ -1,7 +1,5 @@
 # Image API with LocalAI Integration #
 
-[![License](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Oracle_Corporation_logo.svg/2560px-Oracle_Corporation_logo.svg.png)](https://www.oracle.com/legal/)
-
 This project provides a lightweight API that receives images via HTTP requests, stores them locally, and forwards them to a LocalAI instance for further processing. The project is containerized using Docker and designed to run seamlessly alongside a LocalAI service.
 
 ## Features
