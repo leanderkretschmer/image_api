@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  image-api:
+    build:
+      context: https://github.com/dein-username/dein-repository.git # Dieses repo
+      dockerfile: Dockerfile # Dockerfile im Repo
+    container_name: image-api
+    restart: always
+    ports:
+      - "5000:5000" # Expose die Flask API auf localhost:5000
+    volumes:
+      - ./storage:/storage # Speicherpfad für empfangene Bilder
+    environment:
+      - LOCALAI_API_URL=http://localai:8080 # URL der LocalAI-API
+
+volumes:
+  storage:
+    driver: local
