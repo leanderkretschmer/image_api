@@ -33,7 +33,7 @@ This project provides a lightweight API that receives images via HTTP requests, 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
+   git clone https://github.com/leanderkretschmer/image_api
    cd <your-repo>
    ```
 
